@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+.header{
+    background-color:#FFC433 ;
+    color: white;
+    padding: 1.5rem;
+
+}
+.header-tittle{
+    text-align: center;
+    margin: 0;
+    
+
+}
+p{
+    text-indent: 30px;
+}
+
+.section{
+padding: 1rem 2rem;
+}
+.section-content{
+    padding: 1rem;
+}
+.section-accent{
+    background-color:#FFC433 ;
+    color: aliceblue;
+
+}
+.öz{
+    font-size: 32px;
+    margin: 0;
+     padding: 0;
+  
+}
+.section-yeteneklerim,.section-projeler{
+    list-style: circle;
+    margin: 0;
+    font-size: 1.1rem;
+}
+.section-accent h2{
+    
+    margin: 0;
+   
+}
+.section-projeler{
+    color: #FFC433 
+
+}
+.section-projeler li{
+    margin-bottom: 1rem;
+}
+
+.section-projeler li:last-child{
+    margin: 0;
+}
+.section-iletişim{
+    margin: 1rem 0;
+}
+.input{
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 0.5em;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: inherit;
+    resize: none;
+}
+.input:focus{
+   border-color: #FFC433;
+   box-shadow:  0 0 5px 2px #FFC433 ;
+}
+.btn{
+    background-color: #FFC433 ;
+    border: 1px solid #BF9E4B;
+    color: white;
+    padding: .5em 1em;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover,.btn:focus{
+    background-color: #BF9E4B;
+    box-shadow:#BF9E4B ;
+}
+.footer{
+    background-color:#FFC433 ;
+    color: white;
+    padding: 1.5rem; 
+    text-align: center;
+    font-size: 20px;
+
+}
